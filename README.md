@@ -1,10 +1,12 @@
-hiphip (array)!
-===============
+hiphip (array)! Ahead-Of-Time
+=============================
 
-`hiphip` is an array library for Clojure, whicih provides elegant
+`hiphip` is an array library for Clojure, which provides elegant
 methods for fast math with primitive arrays.
 
-Leiningen dependency (Clojars): `[prismatic/hiphip "0.1.0"]`
+`hiphip-aot` is a fork of hiphip, which provides all of hiphip's features but works with AOT-compiled code.
+
+Leiningen dependency (Clojars): `[hiphip-aot "0.1.1"]`
 
 **This is an alpha release. The API and organizational structure are
 subject to change. Comments and contributions are much appreciated.**
@@ -292,6 +294,7 @@ HipHip is currently supported on Clojure 1.5.x.
 ## Contributors
 
 HipHip is the result of a collaboration between Prismatic, Emil Flakk, and Leon Barrett at Climate Corp.
+The sloppy set of changes to hiphip that formed hiphip-aot only have Tommy Ettinger to blame.
 
 ## License
 
